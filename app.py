@@ -23,16 +23,12 @@ app = FastAPI()
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "https://chat-app-frontend-two-rho.vercel.app/",
-        "https://chat-app-backend-ahq0.onrender.com/"
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # Request schema
 class Question(BaseModel):
