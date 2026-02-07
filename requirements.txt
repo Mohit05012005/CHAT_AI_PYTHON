@@ -1,0 +1,33 @@
+fastapi
+uvicorn
+python-dotenv
+
+langchain
+langchain-core
+langchain-groq
+
+pydantic
+
+
+# langchain-openai
+# python-dotenv
+# langchain_community
+# langchain
+# langchain_core
+# langchain_groq
+# langchain-groq
+# langchain_chroma
+# sentence_transformers
+# # langchain-classic==1.1.0
+# pypdf
+# langchain_huggingface
+# arxiv
+# wikipedia
+# fastapi
+# streamlit
+# dotenv
+# #  ddgs
+# # validators ## helps us to validate the url...
+# # youtube_transcript_api   ## it is use to get the transcript for any youtube video .
+# # unstructured
+# # pytube
